@@ -27,11 +27,11 @@ int main(int argc, char const *argv[])
 	float result;
 	double amt;
 
-	scanf("%d",&value);
-	printf("%s %d\n", "You entered : ",value);
+	scanf("%i",&value);
+	printf("%s %i\n", "You entered : ",value);
 
 	printf("%s\n", "Enter the amount you want to convert");
-	scanf("%lf",&amt);
+	scanf("% lf",&amt);
 	printamounttoconvert(value,amt);
 
 	result = currencyconvertor(value,amt);
